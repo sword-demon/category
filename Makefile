@@ -2,7 +2,7 @@
 
 .PHONY: proto
 proto:
-	sudo docker run --rm -v $(shell pwd):$(shell pwd) -w $(shell pwd) -e ICODE=xxxxxx cap1573/cap-protoc -I ./ --micro_out=./ --go_out=./ ./proto/category/category.proto
+	sudo docker run --rm -v $(shell pwd):$(shell pwd) -w $(shell pwd) -e ICODE=C818C113C871114D cap1573/cap-protoc -I ./ --micro_out=./ --go_out=./ ./proto/category/category.proto
 
 .PHONY: build
 build: 
