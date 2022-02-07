@@ -22,3 +22,9 @@ make proto
 ```
 make docker
 ```
+
+## 编写步骤
+1. 编写proto
+2. 编写domain
+3. 编写repository和service
+4. 编写handler
